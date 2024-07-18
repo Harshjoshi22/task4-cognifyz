@@ -1,0 +1,192 @@
+body{
+background-color:rgb(48, 47, 47);
+    margin-left: 5px;
+    margin-top: 5px;
+}
+/*-----navbar starts----*/
+.logo{
+    width:100px;
+    height:70px;
+    border-radius: 100%;
+    border:1px solid black;
+}
+.imgg{
+    padding-top: 5px;
+    padding-left:5px;
+}
+.navdiv{
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    padding-top:5px;
+   
+}
+ul li{
+    list-style:none;
+}
+ul li a{
+    
+    text-decoration: none;
+   margin-right:35px;
+   padding-top:5px;
+   font-size:20px;
+   color:whitesmoke;
+}
+ul li a::after{
+    width:0%;
+    position: absolute;
+    
+}
+ul li a:hover{
+    width:100%;
+    position:relative;
+   text-decoration:underline solid 2px white;
+   transition: 0.5s;
+   color:rgb(250, 121, 121);
+    
+}
+/*-------navbar ends here---*/
+h1{
+    padding-top: 10px;
+    color:white;
+    padding-left:25px;
+    font-size:50px;
+}
+span{
+    font-size:55px;
+    padding-left:420px;
+}
+strong{
+    font-size:65px;
+    color:rgb(233, 56, 56)
+}
+/*------heading 1 ends here----*/
+.content{
+    display:flex;
+    justify-content: space-between;
+}
+
+h2{
+    color:rgb(15, 12, 12);
+    font-size:40px;
+    padding-left:25px;
+    text-shadow:1px 1px black;
+    font-family: sans-serif;
+   text-shadow: 1px 1px whitesmoke;
+   text-decoration: underline ;
+}
+.img{
+    width:600px;
+    height:400px
+}
+.overviewimg{
+    padding-right:50px;
+    margin-top:-80px
+}
+ p{  
+    padding-left: 25px;
+    color:white;
+    font-size:large
+}
+/*-----------benefits start here--------------*/
+.benefits{
+    display:flex;
+    justify-content: space-between;
+}
+.benefitsimg{
+    padding-left:25px;
+    width:700px;
+    height:350px;
+    margin-top:5px;
+}
+.benefitpara{
+    padding-right: 15px;
+    padding-top:5px;
+}
+.ben {
+    list-style:circle white;
+}
+/*----------qualifications starts from here-----------*/
+.quali{
+    display: flex;
+    margin-left:50px;
+}
+.quali p{
+    margin-right:50px;
+    margin-left:50px;
+}
+.ttt{
+    padding-left:320px;
+    color:black;
+    text-shadow: 1px 1px white;
+    font-size:20px;
+    font-weight: bold;
+}
+t{
+    padding-left:130px;
+}
+m{
+    padding-left:2px;
+    font-weight: bold;
+    color:whitesmoke;
+    font-size:25px;
+    text-decoration:underline black;
+    text-shadow: none;
+    color:rgb(199, 117, 117);
+}
+.quali p{
+color:black;
+font-weight: bold;
+font-size:20px;
+text-shadow:1px 1px white;
+}
+/*----------button starts here----------*/
+.button{
+    font-size: 25px;
+    border:1px solid white;
+    background-color: rgb(219, 71, 26);
+    box-shadow: 2px 3px white;
+    width:200px;
+    height:60px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    font-weight:550;
+}
+.apply{
+    text-align: center;
+    margin-top: 5%;
+}
+.button a{
+    color:black;
+    text-decoration: none;
+}
+/*-----------contacts start here-------------*/
+h3{
+    padding-left:35px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.contacts{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+P{
+    font-size: 20px;
+    margin-bottom:-8px;
+ 
+   
+}
+ P span a{
+    color:black;
+    text-decoration: none;
+    
+}
+.contact{
+    padding-left: 10px;
+    font-size:18px;
+    color:black;
+    text-decoration: none;
+}
